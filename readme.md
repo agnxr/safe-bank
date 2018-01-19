@@ -6,7 +6,7 @@ Used technologies:
 
 * HTML5,
 * CSS3,
-* Bootstrap,
+* Bootstrap4,
 * Sass,
 * Gulp,
 * jQuery.

@@ -21,22 +21,94 @@
 
 <body>
 
-<div class="container top">
-    <div class="row">
-        <div class="col-lg-1 mr-auto">
-            <img src="images/log.svg">
-        </div>
-        <div class="col-lg-1 ml-auto">
-            <form>
-                <input type="search" name="search" placeholder="Szukaj">
-            </form>
-        </div>
-        <div class="col-lg-1">
-            <button type="button" class="btn login">Zaloguj</button>
+    <div class="container top">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="images/log.svg">
+            </div>
+            <div class="col-lg-3 ml-auto">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" name="search" placeholder="Szukaj">
+                </form>
+            </div>
+            <div class="col-lg-3">
+                <button type="button" class="btn login">Zaloguj</button>
+            </div>
         </div>
     </div>
 
-</div>
+    <div class="nav">
+        <div class="container">
+
+            <ul class="list-unstyled list-inline float-left">
+                <li class="list-inline-item"><a href="#">Klienci indywidualni</a></li>
+                <li class="list-inline-item"><a href="#">Przedsiębiorcy</a></li>
+                <li class="list-inline-item"><a href="#">Firmy i samorządy</a></li>
+                <li class="list-inline-item"><a href="#">Rolnicy</a></li>
+                <li class="list-inline-item"><a href="#">Korporacje</a></li>
+                <li class="list-inline-item"><a href="#">Uczniowie, studenci</a></li>
+            </ul>
+
+            <ul class="list-unstyled list-inline float-right">
+                <li class="list-inline-item"><a href="#">Bezpieczny Bank</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <nav class="navbar hidden-md-down">
+
+        <!-- Links -->
+        <ul class="navbar-nav list-inline">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Klienci indywidualni</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+<!-- dla malych rozdzielczosci -->
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded ">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse  hidden-md-up" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
 <div class="container nav"></div>
 <div class="container main"></div>
 <div class="container credit"></div>
