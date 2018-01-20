@@ -21,16 +21,31 @@ body {
   color: white;
 }
 
-input[type='search'] {
-  background-image: url(../images/lupka.svg);
-  background-position: 100% 50%;
-  background-repeat: no-repeat;
+#glass, #srch-term {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  height: 30px;
 }
+
+#glass {
+  margin-right: -10px;
+}
+
+#srch-term::placeholder {
+  opacity: 0.5;
+}
+
+#glass img {
+  margin: -8px;
+  margin-top: -15px;
+}
+
 
 //navbar
 
 .navbar-nav, .navbar-brand {
-  margin-top: 44px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 

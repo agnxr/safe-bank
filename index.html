@@ -22,20 +22,34 @@
 <body>
 
     <div class="container top">
-        <div class="row">
-            <div class="col-lg-6">
+        <div class="row no-gutters">
+            <div class="col-lg-1 mr-auto">
                 <img src="images/log.svg">
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2 ml-auto">
+
+                <!--
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" name="search" placeholder="Szukaj">
                 </form>
+                -->
+
+                <form class="navbar-form" role="search" action="javascript:alert('wpisz szukaną frazę');">
+                    <div class="input-group add-on">
+                        <input class="form-control" placeholder="Szukaj" name="srch-term" id="srch-term" type="text">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="glass" type="submit"><img src="images/lupka.svg"></button>
+                        </div>
+                    </div>
+                </form>
+
             </div>
-            <div class="col-lg-3">
-                <button type="button" class="btn blue_button">Zaloguj</button>
+            <div class="col-lg-2">
+                <button type="button" class="btn blue_button float-right">Zaloguj</button>
             </div>
         </div>
     </div>
+
 
     <div class="container">
         <div class="row">
