@@ -1,6 +1,41 @@
 * {
   font-family: 'Raleway', sans-serif; }
 
+body {
+  background-color: #ebebeb; }
+
+.top {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.blue_button {
+  border-radius: 6px;
+  background-color: #50c5da;
+  width: 166px;
+  height: 30px;
+  padding: 0;
+  color: white; }
+
+input[type='search'] {
+  background-image: url(../images/lupka.svg);
+  background-position: 100% 50%;
+  background-repeat: no-repeat; }
+
+.navbar-nav, .navbar-brand {
+  margin-top: 44px;
+  margin-bottom: 10px; }
+
+.nav-link {
+  color: #5b5a5a; }
+
+.nav-link:hover, .dropdown-item:hover, .navbar-brand:hover {
+  color: #096c7e; }
+
+.navbar-brand {
+  font-family: Times New Roman;
+  font-size: 22px;
+  color: black; }
+
 .vl {
   border-left: 1px solid lightgrey;
   height: 25px;
@@ -8,7 +43,12 @@
   margin-right: 5px;
   margin-top: 1%; }
 
-.col-md-12 {
-  border: 2px solid blue; }
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
