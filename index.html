@@ -24,7 +24,7 @@
     <div class="container top">
         <div class="row no-gutters">
             <div class="col-lg-1 mr-auto">
-                <img src="images/log.svg">
+                <a href="#"><img src="images/log.svg"/></a>
             </div>
             <div class="col-lg-2 ml-auto">
 
@@ -105,11 +105,40 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 blueStrip"></div>
+        </div>
+    </div>
+    <!-- slider -->
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-2">
+                <img src="images/keys.png">
+            </div>
+            <div class="col-lg-4">
+                <h2>Kredyt hipoteczny</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium malesuada nisl, sit amet volutpat purus pellentesque vel. Pellentesque sit amet diam diam. Vivamus non consectetur tellus. Quisque sapien massa, imperdiet non fringilla id, laoreet luctus elit. Donec non ligula malesuada est fringilla gravida non vel arcu. Praesent vel convallis nisl, nec vehicula eros.
+                </p>
+                <a class="link float-right" href="#">Dowiedz się więcej</a>
 
+            </div>
+            <div class="col-lg-4">
+                <h2>Pożyczka gotówkowa</h2>
+                <div class="slidecontainer">
+                    <p><span id="kwota>">Kwota: </span><span id="output"></span> zł</p>
+                    <input type="range" min="1000" max="10000" value="1000" step="1000" class="slider" id="myRange">
+                </div>
+                <br>
+                <div class="slidecontainer">
+                    <p>Czas trwania: <span id="output2"></span> <span id="years">lata</span></p>
+                    <input type="range" min="-1" max="2" value="2" step="1" class="slider" id="myRange2">
+                </div>
+                <hr>
+                <div class="rata">
+                    <span>Rata  </span><span id="defaultRata"> 50 zł</span><span id="rata"></span> <a class="link float-right" href="#">Dowiedz się więcej</a>
+                </div>
             </div>
         </div>
     </div>
@@ -123,7 +152,8 @@
 <div class="container 3sections"></div>
 <div class="container footer"></div>
 
-<!-- Optional JavaScript -->
+<!-- JavaScript -->
+    <script src="js/main.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

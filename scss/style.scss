@@ -70,6 +70,8 @@ body {
   margin-top: 1%;
 }
 
+//.navbar-nav > li > .dropdown-menu { background-color: #FF0000; }
+
 //main section
 
 .arrow-down {
@@ -79,4 +81,62 @@ body {
   border-right: 20px solid transparent;
   border-top: 20px solid #f00;
   display: inline-block;
+}
+
+.blueStrip {
+  height: 23px;
+  width: 100%;
+  background-color: #50c5da;
+}
+
+//suwak
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  background: #d3d3d3;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  opacity: 0.651;
+  height: 20px;
+
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("../images/three.png");
+  background-size: 45% 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid rgb(255,255,255);
+  border-radius: 8px;
+  background-color: rgb(80, 197,218);
+  width: 61px;
+  height: 36px;
+
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+
+.slidecontainer p {
+  margin-bottom: 5px;
+}
+
+#rata, #defaultRata, .link {
+
+  color: #50c5da;
+}
+
+#rata, #defaultRata {
+  font-weight: bold;
+  font-size: 150%;
 }
