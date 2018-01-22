@@ -15,7 +15,8 @@ Demo: https://agnxr.github.io/safe-bank/
 
 Screen:
 
-![screen](https://user-images.githubusercontent.com/32043294/35219045-312423aa-ff71-11e7-8c34-6502500bf6df.png)
+![screen](https://user-images.githubusercontent.com/32043294/35222718-17a84fba-ff7f-11e7-895d-15e498b4c28a.png)
+
 
 
 

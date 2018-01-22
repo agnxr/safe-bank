@@ -65,18 +65,15 @@ body {
 .blueStrip {
   height: 23px;
   background-color: #50c5da;
-  margin-top: -15px; }
+  margin-top: -15px;
+  position: relative; }
 
-/*
-.triangles {
-  width: 1103px;
-}
-*/
 .mainImg, .triangles {
   width: 100%; }
 
 .triangles {
-  margin-top: -15px; }
+  margin-top: -23px;
+  position: absolute; }
 
 .mainImg {
   height: 450px; }
