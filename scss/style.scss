@@ -246,3 +246,36 @@ body {
 .transparentBtn:hover {
   color: darkblue;
 }
+
+//three sectors
+
+.white {
+  background-color: white;
+}
+.whiteRow {
+  height: 40px;
+  background-color: white;
+}
+
+.side {
+  width: 5%;
+}
+
+.oneSection h5 {
+  margin-left: 7%;
+  font-weight: bold;
+  color: #717070;
+}
+
+.oneSection ul li a {
+  color: grey;
+  margin-left: 10px;
+}
+
+.oneSection ul li {
+  margin-bottom: 8px;
+}
+
+.oneSection ul {
+  list-style-image: url("../images/square.svg");
+}
