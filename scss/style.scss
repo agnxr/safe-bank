@@ -42,6 +42,7 @@ body {
 }
 
 
+
 //navbar
 
 .navbar-nav, .navbar-brand {
@@ -85,8 +86,36 @@ body {
 
 .blueStrip {
   height: 23px;
-  width: 100%;
   background-color: #50c5da;
+  margin-top: -15px;
+}
+
+/*
+.triangles {
+  width: 1103px;
+}
+*/
+
+.mainImg, .triangles {
+  width: 100%;
+}
+
+.triangles {
+  margin-top: -15px;
+}
+
+//main button
+
+.blue {
+  border-radius: 9px;
+  background-color: rgb(80,197,218);
+  box-shadow: 0 2px 2px 0; rgba(0,0,0,0.23);
+  width: 401px;
+  height: 201px;
+}
+
+.blue p, h3 {
+  color: white;
 }
 
 //suwak
@@ -132,7 +161,6 @@ body {
 }
 
 #rata, #defaultRata, .link {
-
   color: #50c5da;
 }
 
