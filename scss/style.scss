@@ -104,20 +104,49 @@ body {
   margin-top: -15px;
 }
 
+.mainImg {
+  height: 450px;
+}
 //main button
-
 .blue {
   border-radius: 9px;
   background-color: rgb(80,197,218);
-  box-shadow: 0 2px 2px 0; rgba(0,0,0,0.23);
-  width: 401px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.23);
+  max-width: 401px;
   height: 201px;
+  z-index: 3;
+  margin-top: -360px;
+  position: relative;
+
 }
 
 .blue p, h3 {
   color: white;
 }
 
+.blue p {
+  margin-bottom: 0;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.blue h3 {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.check {
+  border-radius: 12px;
+  background-color: rgb(39,39,39);
+  width: 195px;
+  height: 45px;
+  color: white;
+  margin-top: 145px;
+  margin-left: 10%;
+}
 //suwak
 
 .slider {

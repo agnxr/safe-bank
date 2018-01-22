@@ -1,49 +1,158 @@
+* {
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  background-color: #ebebeb; }
+
+.top {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.blue_button {
+  border-radius: 6px;
+  background-color: #50c5da;
+  width: 166px;
+  height: 30px;
+  padding: 0;
+  color: white; }
+
+#glass, #srch-term {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  height: 30px; }
+
+#glass {
+  margin-right: -10px; }
+
+#srch-term::placeholder {
+  opacity: 0.5; }
+
+#glass img {
+  margin: -8px;
+  margin-top: -15px; }
+
+.navbar-nav, .navbar-brand {
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.nav-link {
+  color: #5b5a5a; }
+
+.nav-link:hover, .dropdown-item:hover, .navbar-brand:hover {
+  color: #096c7e; }
+
+.navbar-brand {
+  font-family: Times New Roman;
+  font-size: 22px;
+  color: black; }
+
+.vl {
+  border-left: 1px solid lightgrey;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 1%; }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+  display: inline-block; }
+
+.blueStrip {
+  height: 23px;
+  background-color: #50c5da;
+  margin-top: -15px; }
+
 /*
-Error: Invalid CSS after "...gba(0,0,0,0.23)": expected "{", was ";"
-        on line 112 of style.scss
-
-107: //main button
-108: 
-109: .blue {
-110:   border-radius: 9px;
-111:   background-color: rgb(80,197,218);
-112:   box-shadow: 0 2px 2px 0; rgba(0,0,0,0.23);
-113:   width: 401px;
-114:   height: 201px;
-115: }
-116: 
-117: .blue p, h3 {
-
-Backtrace:
-style.scss:112
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1179:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1115:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1110:in `tok!'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:654:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:655:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:647:in `ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:673:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:123:in `stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:39:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:403:in `_to_tree'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:378:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:295:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin.rb:82:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:359:in `watch_or_update'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
-/usr/bin/scss:8:in `<main>'
+.triangles {
+  width: 1103px;
+}
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...gba(0,0,0,0.23)\": expected \"{\", was \";\"\A         on line 112 of style.scss\A \A 107: //main button\A 108: \A 109: .blue {\A 110:   border-radius: 9px;\A 111:   background-color: rgb(80,197,218);\A 112:   box-shadow: 0 2px 2px 0; rgba(0,0,0,0.23);\A 113:   width: 401px;\A 114:   height: 201px;\A 115: }\A 116: \A 117: .blue p, h3 {"; }
+.mainImg, .triangles {
+  width: 100%; }
+
+.triangles {
+  margin-top: -15px; }
+
+.mainImg {
+  height: 450px; }
+
+.blue {
+  border-radius: 9px;
+  background-color: #50c5da;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  max-width: 401px;
+  height: 201px;
+  z-index: 3;
+  margin-top: -360px;
+  position: relative; }
+
+.blue p, h3 {
+  color: white; }
+
+.blue p {
+  margin-bottom: 0;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%; }
+
+.blue h3 {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 10%;
+  font-weight: bold; }
+
+.check {
+  border-radius: 12px;
+  background-color: #272727;
+  width: 195px;
+  height: 45px;
+  color: white;
+  margin-top: 145px;
+  margin-left: 10%; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  background: #d3d3d3;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  opacity: 0.651;
+  height: 20px; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("../images/three.png");
+  background-size: 45% 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #50c5da;
+  width: 61px;
+  height: 36px; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer; }
+
+.slidecontainer p {
+  margin-bottom: 5px; }
+
+#rata, #defaultRata, .link {
+  color: #50c5da; }
+
+#rata, #defaultRata {
+  font-weight: bold;
+  font-size: 150%; }
+
+/*# sourceMappingURL=style.css.map */
