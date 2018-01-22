@@ -166,14 +166,15 @@ body {
   font-size: 150%; }
 
 .blueRow {
-  height: 60px;
+  height: 40px;
   background-color: #50c5da; }
 
 .bl {
   background-color: #50c5da; }
 
 .blueimg {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 20px; }
 
 .bluediv p {
   color: white;
@@ -186,7 +187,8 @@ body {
   width: 235px;
   height: 50px;
   color: white;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: 20px; }
 
 .transparentBtn:hover {
   color: darkblue; }
