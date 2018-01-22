@@ -216,4 +216,16 @@ body {
 .oneSection ul {
   list-style-image: url("../images/square.svg"); }
 
+.footInf p {
+  color: #a0a0a0;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 10px; }
+
+.footInf p:last-child {
+  font-size: 93%; }
+
+.bottom {
+  height: 40px; }
+
 /*# sourceMappingURL=style.css.map */
