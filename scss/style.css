@@ -150,10 +150,18 @@ body {
   height: 36px; }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: #4CAF50;
-  cursor: pointer; }
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("../images/three.png");
+  background-size: 45% 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #50c5da;
+  width: 61px;
+  height: 36px; }
 
 .slidecontainer p {
   margin-bottom: 5px; }

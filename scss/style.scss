@@ -193,16 +193,26 @@ body {
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: #4CAF50;
+  -webkit-appearance: none;
+  appearance: none;
   cursor: pointer;
+  background-image: url("../images/three.png");
+  background-size: 45% 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid rgb(255,255,255);
+  border-radius: 8px;
+  background-color: rgb(80, 197,218);
+  width: 61px;
+  height: 36px;
 }
 
 
 .slidecontainer p {
   margin-bottom: 5px;
 }
+
+
 
 #rata, #defaultRata, .link {
   color: #50c5da;
