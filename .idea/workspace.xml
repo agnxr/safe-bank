@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5535fc32-9395-42d4-9859-fa3e879098fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.css" afterPath="$PROJECT_DIR$/scss/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.css.map" afterPath="$PROJECT_DIR$/scss/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
-    </list>
+    <list default="true" id="5535fc32-9395-42d4-9859-fa3e879098fb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,12 +149,12 @@
       <workItem from="1516414031930" duration="2726000" />
       <workItem from="1516555745161" duration="11503000" />
       <workItem from="1516571317612" duration="8668000" />
-      <workItem from="1516607644607" duration="4905000" />
+      <workItem from="1516607644607" duration="5479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55734000" />
+    <option name="totallyTimeSpent" value="56308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="378" y="348" width="1856" height="1017" extended-state="1" />

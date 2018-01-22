@@ -9,7 +9,7 @@ Used technologies:
 * Bootstrap4,
 * Sass,
 * Gulp,
-* jQuery.
+* JavaScript.
 
 Demo: https://agnxr.github.io/safe-bank/
 
