@@ -115,6 +115,16 @@ body {
   margin-top: 145px;
   margin-left: 10%; }
 
+.check:hover {
+  color: #50c5da; }
+
+.emptyRow {
+  height: 50px;
+  background-color: white; }
+
+.sliderSection {
+  background-color: white; }
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
