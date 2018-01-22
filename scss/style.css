@@ -165,4 +165,30 @@ body {
   font-weight: bold;
   font-size: 150%; }
 
+.blueRow {
+  height: 60px;
+  background-color: #50c5da; }
+
+.bl {
+  background-color: #50c5da; }
+
+.blueimg {
+  margin-bottom: 30px; }
+
+.bluediv p {
+  color: white;
+  margin-top: -8px; }
+
+.transparentBtn {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 235px;
+  height: 50px;
+  color: white;
+  font-size: 20px; }
+
+.transparentBtn:hover {
+  color: darkblue; }
+
 /*# sourceMappingURL=style.css.map */
