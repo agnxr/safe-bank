@@ -11,6 +11,8 @@ Used technologies:
 * Gulp,
 * jQuery.
 
+Demo: https://agnxr.github.io/safe-bank/
+
 
 
 
