@@ -1,6 +1,6 @@
 # Safe Bank
 
-## Responsive web page created with Bootstrap
+## Responsive web page based on Bootstrap
 
 Used technologies:
 
