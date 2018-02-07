@@ -2,7 +2,7 @@
 
 ## Responsive web page based on Bootstrap
 
-Used technologies:
+Technologies used:
 
 * HTML5,
 * CSS3,
