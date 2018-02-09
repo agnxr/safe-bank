@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #ebebeb
+  background-color: #ebebeb;
 }
 
 //top
@@ -19,6 +19,19 @@ body {
   height: 30px;
   padding: 0;
   color: white;
+}
+
+@media screen and (max-width: 995px) {
+  .blue_button {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  [alt="logo"]{
+    margin-bottom: 20px;
+  }
+
+
 }
 
 #glass, #srch-term {
@@ -41,8 +54,9 @@ body {
   margin-top: -15px;
 }
 
-
-
+.navbar-form {
+  margin-right: 20px;
+}
 //navbar
 
 .navbar-nav, .navbar-brand {
@@ -59,10 +73,36 @@ body {
 
 .navbar-brand {
   font-family: Times New Roman;
-  font-size: 22px;
+  font-size: 2vw;
   color: black;
 }
 
+@media screen and (max-width: 995px) {
+  .navbar-brand {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+
+  .nav-link {    
+    display: block!important;
+    float: none!important;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    display: none;
+    font-size: 13px;
+    padding: 0;
+    margin-bottom: 25px;
+
+  }
+
+  .vl {
+    display: none;
+  }  
+}
+
+  
 .vl {
   border-left: 1px solid lightgrey;
   height: 25px;
@@ -125,6 +165,7 @@ body {
   position: absolute;
   margin-top: 10%;
   margin-left: 10%;
+  font-size: 3vw;
 }
 
 .blue h3 {
@@ -158,6 +199,34 @@ body {
   background-color: white;
 }
 
+.sliderSection img {
+  width: 15vw;
+}
+
+@media screen and (max-width: 991px) {
+  .sliderSection {
+    padding: 50px;
+  }
+
+  .sliderSection img {
+    margin: 0 auto;
+    width: 140px;
+  }
+
+  .emptyRow {
+    display: none;
+  }
+
+  .credit {
+    border-bottom: 1px solid #50c5da;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .credit a {
+    margin-bottom: 20px;
+  }
+}
 //suwak
 
 .slider {
@@ -286,6 +355,25 @@ body {
 
 .oneSection ul {
   list-style-image: url("../images/square.svg");
+}
+
+@media screen and (max-width: 991px) {
+  .oneSection {
+    border-bottom: 1px solid #50c5da;
+    display: flex;
+    align-self: center;
+  //  flex-direction: column;
+  }
+
+  .oneSection h5 {
+    align-self: center;
+    color: #50c5da;
+  }
+
+  .whiteRow {
+    display: none;
+  }
+
 }
 
 //footer
